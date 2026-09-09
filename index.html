@@ -637,6 +637,7 @@ window.MathJax = {
 </head><body>
 <header><div class="topbar"><div class="brand">Bachillerato por Madurez Suficiente 02-2026</div><div class="meta"><span class="pill">Modo examen</span><span class="pill">Respondidas: <b id="countTop">0/60</b></span><span class="pill timer" id="timerTop">03:00:00</span></div></div></header>
 <main><section id="startView" class="card"><h1 class="hero">Bachillerato por Madurez Suficiente 02-2026</h1>
+<div style="text-align:center; margin:14px 0 18px;"><button class="primary" id="startBtn">Iniciar Prueba</button></div>
 <div class="exam-subtitle">Elaborado por: Carlos Madrigal Gutiérrez</div>
 <div class="exam-intro">
   <div class="instructions-title">Instrucciones:</div>
@@ -720,7 +721,7 @@ window.MathJax = {
   </div>
 </div>
 
-<p class="sub"></p><button class="primary" id="startBtn">Iniciar examen</button></section>
+<p class="sub"></p></section>
 <section id="examView" style="display:none"><div class="exam-layout"><div class="card"><div class="qhead"><div class="qnum" id="qnum"></div><div class="status" id="qstatus"></div></div><div id="qcontext" class="context"></div><div id="qtext" class="qtext"></div><div id="qfigure" class="qfigure" style="display:none"><img id="qfigureimg" alt="Representación gráfica del ítem"></div><div id="qaftergraphic" class="qfigure" style="display:none"><img id="qaftergraphicimg" alt="Opciones gráficas del ítem"></div><div id="choices" class="choices"></div><div class="navbuttons"><button id="prevBtn">← Anterior</button><button id="nextBtn">Siguiente →</button></div></div><aside class="card side"><h3>Navegación</h3><div id="grid" class="grid"></div><p class="small" id="countSide">0 de 60 respondidos</p><button class="danger" id="finishBtn" style="width:100%;margin-top:8px">Finalizar examen</button></aside></div></section>
 <section id="resultView" class="card result"><h2>Resultado</h2><div class="score" id="scoreText">0/60</div><div id="percentText"></div><div class="result-grid"><div class="stat"><b id="correctStat">0</b><br>Correctas</div><div class="stat"><b id="wrongStat">0</b><br>Incorrectas</div><div class="stat"><b id="blankStat">0</b><br>Sin responder</div></div><button id="reviewBtn">Revisar respuestas</button> <button class="primary" id="restartBtn">Reiniciar</button><div id="review" class="review-list" style="display:none"></div></section></main><script>
 const FIGURES={"3":"imagen_009.svg","7":"imagen_010.svg","9":"imagen_011.svg","15":"imagen_012.svg","17":"imagen_013.svg","21":"imagen_014.svg","24":"imagen_015.svg","25":"imagen_016.svg","31":"imagen_017.svg","32":"imagen_018.svg","33":"imagen_019.svg","34":"imagen_019.svg","35":"imagen_020.svg","36":"","38":"imagen_021.svg","39":"","41":"imagen_022.svg","47":"imagen_023.svg","48":"imagen_024.svg","51":"imagen_025.svg","_18_backup":"imagen_026.svg"};
